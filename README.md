@@ -11,21 +11,19 @@ To Develop a convolutional deep neural network for digit classification and to v
 Include the neural network model diagram.
 
 ## DESIGN STEPS
-
-### STEP 1:
-
-### STEP 2:
-
-### STEP 3:
-
-Write your own steps
-
+STEP 1: Import the required packages
+STEP 2: Load the dataset
+STEP 3: Scale the dataset
+STEP 4: Use the one-hot encoder
+STEP 5: Create the model
+STEP 6: Compile the model
+STEP 7: Fit the model
+STEP 8: Make prediction with test data and with an external data
+```
 ## PROGRAM
-
-### Importing the required packages
 Developed By: M.Gunasekhar
 Reg No: 212221240014
-
+### Importing the required packages
 import numpy as np
 from tensorflow import keras
 from tensorflow.keras import layers
@@ -94,6 +92,7 @@ x_single_prediction = np.argmax(
      axis=1)
 print(x_single_prediction)
 plt.imshow(img_28_gray_scaled.reshape(28,28),cmap='gray')
+```
 OUTPUT
 Training Loss, Validation Loss Vs Iteration Plot
 image image
@@ -103,10 +102,11 @@ image image
 
 
 ### Confusion Matrix
+<img width="401" alt="Screenshot 2023-09-12 114842" src="https://github.com/gunasekhar159/mnist-classification/assets/95043391/048703dc-9b1a-4715-a612-05efaa50145a">
 
 
 ### New Sample Data Prediction
 
 
-RESULT
+### RESULT
 Therefore a model has been successfully created for digit classification using mnist dataset.
