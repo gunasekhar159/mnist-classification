@@ -125,6 +125,7 @@ plt.imshow(img_28_gray_scaled.reshape(28,28),cmap='gray')
 OUTPUT
 ### Training Loss, Validation Loss Vs Iteration Plot
 <img width="391" alt="Screenshot 2023-09-12 114808" src="https://github.com/gunasekhar159/mnist-classification/assets/95043391/a630e055-8e1f-43d8-9bd9-d8f443dc7f1b">
+
 <img width="401" alt="Screenshot 2023-09-12 114842" src="https://github.com/gunasekhar159/mnist-classification/assets/95043391/048703dc-9b1a-4715-a612-05efaa50145a">
 
 ### Classification Report
